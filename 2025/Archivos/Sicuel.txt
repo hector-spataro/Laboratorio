@@ -1,0 +1,21 @@
+
+A SQL database is a type of database that uses Structured Query Language (SQL) for managing and querying data. It is also known as a relational database.
+Key characteristics of a SQL database:
+
+    Relational Model:
+    Data is organized into tables, where each table consists of rows and columns. Each row represents a record or entity, and each column represents an attribute or field of that entity.
+    Structured Query Language (SQL):
+    SQL is the standard language used to interact with these databases. It allows users to perform various operations, including:
+        Data Definition Language (DDL): Creating, modifying, and deleting database objects like tables, views, and indexes (e.g., CREATE TABLE, ALTER TABLE, DROP TABLE).
+        Data Manipulation Language (DML): Inserting, updating, and deleting data within tables (e.g., INSERT INTO, UPDATE, DELETE).
+        Data Query Language (DQL): Retrieving data from tables (e.g., SELECT).
+        Data Control Language (DCL): Managing user permissions and access control (e.g., GRANT, REVOKE). 
+    Relationships:
+    SQL databases allow for the definition of relationships between tables, typically through primary and foreign keys. This enables data integrity and allows for complex queries that join information from multiple tables.
+    ACID Properties:
+    Many SQL databases adhere to the ACID properties (Atomicity, Consistency, Isolation, Durability), ensuring reliable transaction processing.
+    Schema-on-write:
+    SQL databases typically require a predefined schema, meaning the structure of the tables and the data types of the columns are defined before data can be stored.
+
+Examples of SQL databases (Relational Database Management Systems - RDBMS):
+MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server, and SQLite.
