@@ -1,2 +1,2 @@
-# Laboratorio2025
+# Laboratorio
 Programas hechos en clase
