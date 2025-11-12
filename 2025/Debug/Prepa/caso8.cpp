@@ -96,4 +96,9 @@ Define y enum NOOOOOOO
 Diferencia en memoria de como guarda un vector o un array
 Y un string?
 
+------> 05/11 hasta variables estáticas No inclusive
+
+mostrar estructura en memoria
+
+
 */
