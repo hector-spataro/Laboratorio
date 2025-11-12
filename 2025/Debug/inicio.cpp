@@ -9,7 +9,10 @@ int patodos;
 int potencia (int base, int exponente)
 {
 
-    static int pepe = 5;
+    static int pepe;
+    int pepe1 = 1;
+
+    pepe = 42;
 
     int i;
     int resu = 1;
@@ -22,6 +25,11 @@ int potencia (int base, int exponente)
     }
 
     patodos = 1234;
+    cout << "Ejecuté potencia " << pepe << " veces" << endl;
+    pepe++;
+
+    cout << "Ejecuté potencia (pepe1)" << pepe1 << " veces" << endl;
+    pepe1++;
 
     return resu;
 }
@@ -29,19 +37,25 @@ int potencia (int base, int exponente)
 
 int main (void)
 {
-    int bas, exp, resultado;
+    int bas, exp, resultado, i;
 
-    cout << "Ingrese la base: ";
-    cin >> bas;
+    //for (i = 0; i < 3; i++)
+    //{
+        cout << "Ingrese la base: ";
+        cin >> bas;
 
-    cout << "Ingrese el exponente: ";
-    cin >> exp;
+        cout << "Ingrese el exponente: ";
+        cin >> exp;
 
-    resultado = potencia(bas, exp);
+        resultado = potencia(bas, exp);
 
-    patodos = 3241;
-    cout << bas << "^" << exp << "= " << resultado << endl;
+        patodos = 3241;
+        cout << bas << "^" << exp << "= " << resultado << endl;
+    //}
 
+    main();
+    main();
+    main();
 
     return 0;
 }
