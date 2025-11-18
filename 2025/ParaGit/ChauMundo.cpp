@@ -8,4 +8,3 @@ int main (void)
 	cout << "Fue lindo mientras duro" << endl;
 	return 0;
 }
-

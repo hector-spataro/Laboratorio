@@ -8,4 +8,3 @@ int main (void)
 	cout << "Bienvenido" << endl;
 	return 0;
 }
-
